@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound Bubbles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="project-detail-container">
+        <div class="detail-header">Sound Bubbles</div>
+        
+        <div class="detail-content">
+            <div class="detail-info fade-in">
+                <div class="info-item">
+                    <div class="info-title">Team</div>
+                    <div class="info-value">Joe Deng (personal project)</div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-title">Role</div>
+                    <div class="info-value">Product design, Engineering, Fabrication</div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-title">Tools</div>
+                    <div class="info-value">Unity 3D, ESP</div>
+                </div>
+            </div>
+            
+            <div class="gallery-item full-width fade-in">
+                <video class="detail-video" controls autoplay muted loop playsinline>
+                    <source src="/img/soundbubbles/1.mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+            <div class="detail-text fade-in">
+               <h3>Overview</h3> 
+               <p>Sound Bubbles is a design and research piece that explores how we interact with spatial audio through a fun and tactile interface. This work encourages natural discovery and leads to exploration and understanding of spatial relationships through direct manipulation and active listening.</p>
+            </div>
+
+            
+            
+
+
+            <div class="project-gallery fade-in">
+               <div class="gallery-item full-width">
+                    <img src="/img/soundbubbles/2.jpg" alt="Image 2" class="detail-media">
+                </div>
+                <div class="gallery-item full-width">
+                    <img src="/img/soundbubbles/3.jpg" alt="Image 2" class="detail-media">
+                </div>
+            </div>
+            
+            <div class="detail-text fade-in">
+                <h3>Features</h3>
+                <p>Sound Bubbles consists of four precision knobs and a multifunctional button. Visitors put on headphones and interact with the controller's four knobs and push button. Three knobs map directly to spatial coordinates (X, Y, Z). Users can also use the iPad's touch screen for control. The fourth knob controls volume, and the button manages sound sources – adding, removing, or selecting between them, allows for adding sounds (double press), switching between them (single press), or removing them (long press). As users manipulate the knobs, they can see their actions reflected visually on both screens while experiencing the sound's movement through the headphones. A brief guide will be provided to help visitors understand the basic interactions while encouraging exploration.</p>
+            </div>
+
+            <div class="gallery-item full-width fade-in">
+                <video class="detail-video" controls autoplay muted loop playsinline>
+                    <source src="/img/soundbubbles/8.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+
+            <div class="media-container landscape fade-in">
+                <div class="gallery-item">
+                    <video class="detail-video" controls autoplay muted loop playsinline>
+                    <source src="/img/soundbubbles/btn1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                </div>
+                <div class="gallery-item">
+                    <video class="detail-video" controls autoplay muted loop playsinline>
+                    <source src="/img/soundbubbles/btn2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                </div>
+                <div class="gallery-item">
+                    <video class="detail-video" controls autoplay muted loop playsinline>
+                    <source src="/img/soundbubbles/btn3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                </div>
+                <div class="gallery-item">
+                    <video class="detail-video" controls autoplay muted loop playsinline>
+                    <source src="/img/soundbubbles/btn4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                </div>
+                <div class="gallery-item">
+                    <video class="detail-video" controls autoplay muted loop playsinline>
+                    <source src="/img/soundbubbles/btn5.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                </div>
+            </div>
+
+
+            <div class="project-gallery fade-in">
+                <div class="gallery-item full-width">
+                    <img src="/img/soundbubbles/4.jpg" alt="Indoor Chimes - Image 3" class="detail-media">
+                </div>
+                <div class="gallery-item full-width">
+                    <img src="/img/soundbubbles/5.jpg" alt="Indoor Chimes - Image 3" class="detail-media">
+                </div>
+                <div class="gallery-item full-width">
+                    <img src="/img/soundbubbles/6.jpg" alt="Indoor Chimes - Image 3" class="detail-media">
+                </div>
+            </div>
+
+            <div class="detail-text fade-in">
+                <h3>Implementation</h3>
+                <p>The project uses Unity to create an interactive spatial audio environment. It communicates via WiFi with an ESP8266 microcontroller, which acts as a soft access point and reads values from physical knobs. These values are transmitted through UDP to Unity, where they're translated into three-dimensional sound positioning and are visualized afterward.</p>
+            </div>
+
+            
+        </div>
+    </div>
+    
+</body>
+</html>
